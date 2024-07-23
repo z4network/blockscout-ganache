@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  ganache:
+    image: 'trufflesuite/ganache'
+    container_name: ganache
+    command: ganache -m "candy maple cake sugar pudding cream honey rich smooth crumble sweet treat" -p 8545 -e 10000  --chain.networkId 1337  &
+  
